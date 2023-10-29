@@ -1,0 +1,152 @@
+[
+  {
+    "command": "workbench.view.explorer",
+    "key": "alt+1"
+  },
+  {
+    "command": "workbench.action.findInFiles",
+    "key": "alt+2"
+  },
+  {
+    "command": "workbench.view.scm",
+    "key": "alt+3"
+  },
+  {
+    "command": "editor.action.moveLinesUpAction",
+    "key": "alt+k",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "editor.action.moveLinesDownAction",
+    "key": "alt+j",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "workbench.action.closeActiveEditor",
+    "key": "ctrl+w"
+  },
+  {
+    "command": "workbench.action.navigateLeft",
+    "key": "ctrl+h"
+  },
+  {
+    "command": "workbench.action.navigateRight",
+    "key": "ctrl+l"
+  },
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "alt+e"
+  },
+  {
+    "command": "workbench.action.terminal.toggleTerminal",
+    "key": "alt+F12"
+  },
+  {
+    "command": "workbench.action.openEditorAtIndex4",
+    "key": "f4"
+  },
+  {
+    "command": "workbench.action.openEditorAtIndex3",
+    "key": "f3"
+  },
+  {
+    "command": "workbench.action.openEditorAtIndex2",
+    "key": "f2"
+  },
+  {
+    "command": "workbench.action.openEditorAtIndex1",
+    "key": "f1"
+  },
+  {
+    "command": "editor.action.sourceAction",
+    "key": "alt+insert"
+  },
+  {
+    "command": "editor.action.clipboardCopyAction",
+    "key": "ctrl+c",
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    "command": "editor.action.clipboardPasteAction",
+    "key": "ctrl+v",
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    "command": "editor.action.marker.next",
+    "key": "]",
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    "command": "editor.action.marker.prev",
+    "key": "[",
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    // the input to send to Neovim
+    "args": ":w<CR>",
+    "command": "vscode-neovim.send",
+    // the key sequence to activate the binding
+    "key": "space w",
+    // don't activate during insert mode
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    "command": "editor.action.formatSelection",
+    // the key sequence to activate the binding
+    "key": "space f c",
+    // don't activate during insert mode
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    // the input to send to Neovim
+    "args": ":vsplit<CR>",
+    "command": "vscode-neovim.send",
+    // the key sequence to activate the binding
+    "key": "space s p",
+    // don't activate during insert mode
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    "command": "editor.action.revealDefinition",
+    // the key sequence to activate the binding
+    "key": "space g d",
+    // don't activate during insert mode
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    "command": "editor.action.startFindReplaceAction",
+    // the key sequence to activate the binding
+    "key": "space r r",
+    // don't activate during insert mode
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    "command": "turboConsoleLog.displayLogMessage",
+    // the key sequence to activate the binding
+    "key": "space c l",
+    // don't activate during insert mode
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    "command": "editor.action.organizeImports",
+    // the key sequence to activate the binding
+    "key": "space o i",
+    // don't activate during insert mode
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    "command": "editor.action.showHover",
+    // the key sequence to activate the binding
+    "key": "space s e",
+    // don't activate during insert mode
+    "when": "editorTextFocus && neovim.mode != insert"
+  },
+  {
+    "command": "workbench.action.quickOpen",
+    // the key sequence to activate the binding
+    "key": "space f f",
+    // don't activate during insert mode
+    "when": "editorTextFocus && neovim.mode != insert"
+  }
+]
+
