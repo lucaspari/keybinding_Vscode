@@ -68,7 +68,7 @@
   },
   {
     "command": "editor.action.clipboardPasteAction",
-    "key": "ctrl+v",
+    "key": "ctrl+shift+v",
     "when": "editorTextFocus && neovim.mode != insert"
   },
   {
