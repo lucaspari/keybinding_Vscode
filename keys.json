@@ -82,71 +82,50 @@
     "when": "editorTextFocus && neovim.mode != insert"
   },
   {
-    // the input to send to Neovim
     "args": ":w<CR>",
     "command": "vscode-neovim.send",
-    // the key sequence to activate the binding
     "key": "space w",
-    // don't activate during insert mode
     "when": "editorTextFocus && neovim.mode != insert"
   },
   {
     "command": "editor.action.formatSelection",
-    // the key sequence to activate the binding
     "key": "space f c",
-    // don't activate during insert mode
     "when": "editorTextFocus && neovim.mode != insert"
   },
   {
-    // the input to send to Neovim
     "args": ":vsplit<CR>",
     "command": "vscode-neovim.send",
-    // the key sequence to activate the binding
     "key": "space s p",
-    // don't activate during insert mode
     "when": "editorTextFocus && neovim.mode != insert"
   },
   {
     "command": "editor.action.revealDefinition",
-    // the key sequence to activate the binding
     "key": "space g d",
-    // don't activate during insert mode
     "when": "editorTextFocus && neovim.mode != insert"
   },
   {
     "command": "editor.action.startFindReplaceAction",
-    // the key sequence to activate the binding
     "key": "space r r",
-    // don't activate during insert mode
     "when": "editorTextFocus && neovim.mode != insert"
   },
   {
     "command": "turboConsoleLog.displayLogMessage",
-    // the key sequence to activate the binding
     "key": "space c l",
-    // don't activate during insert mode
     "when": "editorTextFocus && neovim.mode != insert"
   },
   {
     "command": "editor.action.organizeImports",
-    // the key sequence to activate the binding
     "key": "space o i",
-    // don't activate during insert mode
     "when": "editorTextFocus && neovim.mode != insert"
   },
   {
     "command": "editor.action.showHover",
-    // the key sequence to activate the binding
     "key": "space s e",
-    // don't activate during insert mode
     "when": "editorTextFocus && neovim.mode != insert"
   },
   {
     "command": "workbench.action.quickOpen",
-    // the key sequence to activate the binding
     "key": "space f f",
-    // don't activate during insert mode
     "when": "editorTextFocus && neovim.mode != insert"
   }
 ]
-
